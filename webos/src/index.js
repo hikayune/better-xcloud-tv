@@ -1,5 +1,7 @@
 function openXcloud() {
-  location.href = 'https://www.xbox.com/play';
+  var base = 'https://www.xbox.com';
+  var path = '/play/login/' + 'deviceCode';
+  location.href = base + path;
 }
 
 window.addEventListener('load', function () {
