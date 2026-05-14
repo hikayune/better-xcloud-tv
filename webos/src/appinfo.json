@@ -1,26 +1,25 @@
 {
-  "id": "com.redphx.better-xcloud",
-  "version": "{{VERSION}}",
-  "vendor": "redphx",
+  "id": "com.local.xcloudpure",
+  "version": "0.2.0",
+  "vendor": "local",
   "type": "web",
   "main": "index.html",
-  "title": "Better xCloud (Lite)",
+  "title": "xCloud Pure",
   "icon": "icon.png",
   "largeIcon": "largeIcon.png",
   "iconColor": "#107c10",
-  "checkUpdateOnLaunch": true,
+  "checkUpdateOnLaunch": false,
   "accessibility": {
     "supportsAudioGuidance": false
   },
   "vendorExtension": {
-    "userAgent": "Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0",
     "allowCrossDomain": true
   },
   "enablePigScreenSaver": false,
   "trustLevel": "netcast",
   "privilegedJail": true,
-  "supportQuickStart": true,
-  "dialAppName": "Better xCloud",
+  "supportQuickStart": false,
+  "dialAppName": "xCloud Pure",
   "disableBackHistoryAPI": true,
   "cloudgame_active": true,
   "supportGIP": true
